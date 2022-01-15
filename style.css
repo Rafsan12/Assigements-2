@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;}
+    .part-one{
+        display: flex;
+    }
+   @media all and (max-width: 780px) {
+       .part-one {
+           flex-direction: column;}}
+       @media all and (min-width: 780px){
+       .all-collation {grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);}
+    
+       .part-one .nav{
+        position:absolute ;
+        top: 0;
+        right: 0;
+        margin-right: 200px;
+    }
+    .part-one .nav ul{
+        list-style: none;
+    }
+    .part-one .nav ul li{
+        float: left;
+        padding-right: 40px;
+        padding-top: 10px;
+    } 
+    .part-one .nav ul li a{
+        text-decoration: none;
+        color: rgb(41, 41, 23);
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+    } 
+    
+    .part-one .nav ul li a:hover{
+        color:#7f98ff ;}
+    .top{
+        padding-left: 50px;
+        margin-bottom: 15%;}
+    .top h1{
+        font-size: 60px;
+        width: 100%;}
+    .top p{
+        width: 50%;}
+    .top button{
+        padding: 5px;
+        margin-left: 100px;
+        background-color: #e02c6d;}
+.top .middle{
+    width: 50%;}
+.middle{
+    width: 60%;}
+.middle img{
+    margin-top: 30%;
+    width: 100%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.collations h2{
+    text-align: center;}
+.all-collation{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:24px;
+    border-radius: 10px ;}
+.collation{
+    border-radius: 80px;
+    margin-top: 20%;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px;}
+.collation-title img{
+    width: 100%;}
+
+.collations h4{
+    margin-top: 100px;
+    text-align: right;
+   font-size: 20px;}
+.join{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;}
+    .top-part{
+        width: 50%; 
+        padding-left: 10%;}
+    .top-part img{
+        width: 80%; }
+    
+    .top-part button{
+        padding: 5px;
+        margin-left: 100px;
+        background-color: #E02C6D;}
+    footer{
+        text-align: center;
+            background-color: darkturquoise;}
